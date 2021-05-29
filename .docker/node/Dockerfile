@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:12
 
 WORKDIR /usr/src/app
 
@@ -8,4 +8,4 @@ RUN yarn install
 
 EXPOSE 8080
 
-CMD ["yarn", "start"]
+CMD ["yarn", "build-start"]
