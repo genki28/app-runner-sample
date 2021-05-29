@@ -3,8 +3,8 @@ runtime: nodejs12
 build:
   commands:
     build:
-      - yarn install --production
-      - yarn build
+      - npm install
+      - npm run build
 
 run:
   runtime-version: 12.18.4
