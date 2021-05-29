@@ -5,7 +5,7 @@ const PORT = process.env.APP_PORT || 8000
 
 app.use(express.json())
 app.get('/', (req, res, next) => {
-  res.send('Hello, world APP RUNNER')
+  res.send('Hello, world APP_RUNNER')
 })
 
 app.listen(PORT, () => {
